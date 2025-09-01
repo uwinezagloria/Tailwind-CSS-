@@ -10,8 +10,45 @@
 </head>
 <body>
   <div style="  background-image:url(./src/images/banner-bg.jpg)" class=" relative rounded-b-[200px] py-1   pb-70">
-    <div class="fixed top-0 left-0 z-50 bg-blue-600  rounded-b-[20px] w-full">
-<div class="mx-30  py-2 flex flex-cols justify-between ">
+    <div class=" fixed top-0 left-0 z-50 bg-blue-600  rounded-b-[20px]  w-full">
+      <!-- small screen-->
+
+       <div class=" lg:hidden py-2 flex  justify-between ">
+      <div >
+        <img class="cursors " src="./src/images/logo.png" alt="logo">
+      </div>
+      <div>
+        <img id="home-icon" class="invert w-[80px] h-max-sm" src="./src/images/home-icon.png">
+        </div>
+        </div>
+        <div class="lg:hidden mt-15 mx-10  bg-white max-w-md rounded-3xl">
+          <ul id="menu-lists" class="hidden   mx-10  bg-white flex flex-col ">
+          <li class="cursor px-10 py-3 bg-white"><a
+              class="text-red-400 ml-20 font-sans text-lg">Home</a></li>
+              <hr>
+          <li class="cursor px-10 py-3 bg-white "><a
+              class="text-gray-800 hover:text-red-400 ml-20 font-sans text-lg">Our Shop </a></li>
+              <hr class="text-gray-800">
+          <li class="cursor px-10 py-3 bg-white"><a
+              class="text-gray-800 hover:text-red-400 ml-20 font-sans text-lg">Product Details </a></li>
+              <hr>
+          <li class="cursor px-10 py-3 bg-white"><a
+              class="text-gray-800 hover:text-red-400 ml-20 font-sans text-lg">Contact Us </a></li>
+              <hr>
+          <li class="cursor px-10 py-3 bg-white"><a
+              class="text-gray-800 hover:text-red-400 ml-20 font-sans text-lg">Sign In </a></li>
+        </ul>
+        </div>
+           
+        <script>
+          const menu=document.querySelector("#menu-lists")
+          const menuIcon = document.querySelector("#home-icon");
+          menuIcon.addEventListener("click",()=>{
+            menu.classList.toggle("hidden")
+          })
+        </script>
+       <!--- largescreen-->
+<div class=" hidden  lg:mx-30  lg:py-1 lg:flex  lg:justify-between ">
       <div>
         <img class="cursors " src="./src/images/logo.png" alt="logo">
       </div>
@@ -30,6 +67,7 @@
         </ul>
       </div>
     </div>
+    
     </div>
     <!-- Section 1-->
     <div class=" mx-30 py-10 mt-20  flex flex-cols justify-between  ">

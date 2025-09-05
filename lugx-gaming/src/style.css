@@ -22,7 +22,7 @@
     @apply cursors px-5 py-2 hover:border-none hover:border-10 hover:rounded-3xl hover:bg-blue-500;
   }
   @utility buttons{
-    @apply cursors mt-3 md:left-[160px] md:top-[375px] hover:bg-blue-500 text-white text-lg font-bold absolute lg:left-[40px] lg:top-[280px] px-5 py-1 bg-red-400 rounded-xl;
+    @apply cursors left-[160px] top-[420px] mt-3 md:left-[160px] md:top-[375px] hover:bg-blue-500 text-white text-lg font-bold absolute lg:left-[40px] lg:top-[280px] px-5 py-1 bg-red-400 rounded-xl;
   } 
   @utility adventure{
     @apply mt-8  mx-8 text-gray-500;

@@ -6,8 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RSSB</title>
     <link rel="stylesheet" href="./src/style.css">
+   
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    
   </head>
   <body>
-   
+    <header class="cursor-pointer flex flex-col  gap-5 px-20 py-6   bg-indigo-100 md:px-70 lg:grid grid-cols-2 lg:px-25 lg:gap-120 ">
+      <div class="flex justify-between lg:w-50 ">
+       <i class="fa-brands fa-linkedin-in text-[#242e8f]"></i>
+       <span class="h-4 border-1  text-gray-300"></span>
+   <i class="fa-brands fa-twitter text-[#242e8f]"></i>
+    <span class="h-4 border-1  text-gray-300"></span>
+   <i class="fa-brands fa-facebook-f text-[#242e8f]"></i>
+    <span class="h-4 border-1  text-gray-300"></span>
+   <i class="fa-brands fa-youtube text-[#242e8f]"></i>
+    <span class="h-4 border-1  text-gray-300"></span>
+   <i class="fa-brands fa-instagram text-[#242e8f]"></i>
+    </div>
+    <div class="flex justify-between lg:hidden  ">
+      <p class="text-gray-700">Publications</p>
+      <span class="h-4 border-1  text-gray-300"></span>
+      <p class="services text-gray-700 ">Online Services <i class="fa fa-chevron-up transform rotate-180 "></i></p>
+    </div>
+    <div class="hidden  lg:block lg:flex lg:w-80 lg:justify-between  ">
+      <p class="services text-gray-700 text-sm ">Online Services <i class="fa fa-chevron-up transform rotate-180 "></i></p>
+      <span class="h-4 border-1  text-gray-300"></span>
+      <p class="text-gray-700 text-sm" >Publications</p>
+    </div>
+    </header>
+      <ul class="hidden cursor-pointer absolute z-20 ml-15 mt-3  lists w-[255px]   shadow-xl rounded-xl bg-white md:ml-70 lg:ml-210  ">
+<li class="hover:bg-[#242e8f] py-2 px-2 hover:text-white text-gray-600 text-lg">Apply For Employee</li>
+<li class="hover:bg-[#242e8f] py-2 px-2  hover:text-white  text-gray-600 text-lg">Check For Your Contributions</li>
+<li class="hover:bg-[#242e8f] py-2 px-2  hover:text-white  text-gray-600 text-lg">Pay Employee Contributions</li>
+<li class="hover:bg-[#242e8f] py-2 px-2  hover:text-white  text-gray-600 text-lg">RSSB Clearance Certificate</li>
+<li class="hover:bg-[#242e8f] py-2  px-2 hover:text-white  text-gray-600 text-lg">Kwivuza</li>
+</ul>
+<script>
+  const services=document.querySelectorAll(".services") 
+  const lists=document.querySelector(".lists")
+  services.forEach(service=>service.addEventListener("mouseenter",()=>{
+    lists.classList.toggle("hidden")
+  }))
+</script>
+    <!--section1-->
+    <div class=" relative   mt-5 mx-3 flex   justify-between md:mx-15 lg:mx-30 ">
+      <div><img class="w-[200px]" src="./src/images/logo.webp"/></div>
+     <div class=" lg:hidden"><i class=" fa-solid fa-bars text-blue-800 text-4xl mt-8   "></i></div> 
+<div class="hidden lg:block lg:flex lg:justify-between lg:gap-5">
+  <div class="flex gap-4">
+      <div > <i class="fa-solid fa-phone text-blue-800 border-gray-400 px-3 py-3  border-1 rounded-full  "></i></div>
+     <div class="flex flex-col">
+      <h1 class="text-md text-[#242e8f] font-bold">4044</h1>
+      <p class="text-gray-600">Toll free lines</p>
+     </div>
+    </div>
+    <span class="h-12 border-1  text-gray-300"></span>
+     <div class="flex gap-4">
+      <div > <i class="fa-solid fa-envelope text-blue-800 border-gray-400 px-3 py-3  border-1 rounded-full  "></i></div>
+     <div class="flex flex-col">
+      <h1 class="text-md text-[#242e8f] font-bold">info@rssb.rw</h1>
+      <p class="text-gray-600">Reach to us</p>
+     </div>
+     </div>
+</div>
+    </div>
+<!-- section 2-->
   </body>
 </html>

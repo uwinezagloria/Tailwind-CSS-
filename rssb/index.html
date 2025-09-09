@@ -1,27 +1,30 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RSSB</title>
-    <link rel="stylesheet" href="./src/style.css">
-   
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RSSB</title>
+  <link rel="stylesheet" href="./src/style.css">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    
-  </head>
-  <body>
-    <header class="cursor-pointer flex flex-col  gap-5 px-20 py-6   bg-indigo-100 md:px-70 lg:grid grid-cols-2 lg:px-25 lg:gap-120 ">
-      <div class="flex justify-between lg:w-50 ">
-       <i class="fa-brands fa-linkedin-in text-[#242e8f]"></i>
-       <span class="h-4 border-1  text-gray-300"></span>
-   <i class="fa-brands fa-twitter text-[#242e8f]"></i>
-    <span class="h-4 border-1  text-gray-300"></span>
-   <i class="fa-brands fa-facebook-f text-[#242e8f]"></i>
-    <span class="h-4 border-1  text-gray-300"></span>
-   <i class="fa-brands fa-youtube text-[#242e8f]"></i>
-    <span class="h-4 border-1  text-gray-300"></span>
-   <i class="fa-brands fa-instagram text-[#242e8f]"></i>
+
+</head>
+
+<body>
+  <header
+    class="cursor-pointer flex flex-col  gap-5 px-20 py-6   bg-indigo-100 md:px-70 lg:grid grid-cols-2 lg:px-25 lg:gap-120 ">
+    <div class="flex justify-between lg:w-50 ">
+      <i class="fa-brands fa-linkedin-in text-[#242e8f]"></i>
+      <span class="h-4 border-1  text-gray-300"></span>
+      <i class="fa-brands fa-twitter text-[#242e8f]"></i>
+      <span class="h-4 border-1  text-gray-300"></span>
+      <i class="fa-brands fa-facebook-f text-[#242e8f]"></i>
+      <span class="h-4 border-1  text-gray-300"></span>
+      <i class="fa-brands fa-youtube text-[#242e8f]"></i>
+      <span class="h-4 border-1  text-gray-300"></span>
+      <i class="fa-brands fa-instagram text-[#242e8f]"></i>
     </div>
     <div class="flex justify-between lg:hidden  ">
       <p class="text-gray-700">Publications</p>
@@ -29,58 +32,151 @@
       <p class="services text-gray-700 ">Online Services <i class="fa fa-chevron-up transform rotate-180 "></i></p>
     </div>
     <div class="hidden  lg:block lg:flex lg:w-80 lg:justify-between  ">
-      <p class="services text-gray-700 text-sm ">Online Services <i class="fa fa-chevron-up transform rotate-180 "></i></p>
+      <p class="services text-gray-700 text-sm ">Online Services <i class="fa fa-chevron-up transform rotate-180 "></i>
+      </p>
       <span class="h-4 border-1  text-gray-300"></span>
-      <p class="text-gray-700 text-sm" >Publications</p>
+      <p class="text-gray-700 text-sm">Publications</p>
     </div>
-    </header>
-      <ul class="hidden cursor-pointer absolute z-20 ml-15 mt-3  lists w-[255px]   shadow-xl rounded-xl bg-white md:ml-70 lg:ml-210  ">
-<li class="hover:bg-[#242e8f] py-2 px-2 hover:text-white text-gray-600 text-lg">Apply For Employee</li>
-<li class="hover:bg-[#242e8f] py-2 px-2  hover:text-white  text-gray-600 text-lg">Check For Your Contributions</li>
-<li class="hover:bg-[#242e8f] py-2 px-2  hover:text-white  text-gray-600 text-lg">Pay Employee Contributions</li>
-<li class="hover:bg-[#242e8f] py-2 px-2  hover:text-white  text-gray-600 text-lg">RSSB Clearance Certificate</li>
-<li class="hover:bg-[#242e8f] py-2  px-2 hover:text-white  text-gray-600 text-lg">Kwivuza</li>
-</ul>
-<script>
-  const services=document.querySelectorAll(".services") 
-  const lists=document.querySelector(".lists")
-  services.forEach(service=>service.addEventListener("mouseenter",()=>{
-    lists.classList.toggle("hidden")
-  }))
-</script>
-    <!--section1-->
-    <div class=" relative   mt-5 mx-3 flex   justify-between md:mx-15 lg:mx-30 ">
-      <div><img class="w-[200px]" src="./src/images/logo.webp"/></div>
-     <div class=" lg:hidden"><i class=" fa-solid fa-bars text-blue-800 text-4xl mt-8   "></i></div> 
-<div class="hidden lg:block lg:flex lg:justify-between lg:gap-5">
-  <div class="flex gap-4">
-      <div > <i class="fa-solid fa-phone text-blue-800 border-gray-400 px-3 py-3  border-1 rounded-full  "></i></div>
-     <div class="flex flex-col">
-      <h1 class="text-md text-[#242e8f] font-bold">4044</h1>
-      <p class="text-gray-600">Toll free lines</p>
-     </div>
+  </header>
+  <ul
+    class="hidden cursor-pointer absolute z-20 ml-15 mt-3  lists w-[255px]   shadow-xl rounded-xl bg-white md:ml-70 lg:ml-210  ">
+    <li class="hover:bg-[#242e8f] py-2 px-2 hover:text-white text-gray-600 text-lg">Apply For Employee</li>
+    <li class="hover:bg-[#242e8f] py-2 px-2  hover:text-white  text-gray-600 text-lg">Check For Your Contributions</li>
+    <li class="hover:bg-[#242e8f] py-2 px-2  hover:text-white  text-gray-600 text-lg">Pay Employee Contributions</li>
+    <li class="hover:bg-[#242e8f] py-2 px-2  hover:text-white  text-gray-600 text-lg">RSSB Clearance Certificate</li>
+    <li class="hover:bg-[#242e8f] py-2  px-2 hover:text-white  text-gray-600 text-lg">Kwivuza</li>
+  </ul>
+  <script>
+    const services = document.querySelectorAll(".services")
+    const lists = document.querySelector(".lists")
+    services.forEach(service => service.addEventListener("mouseenter", () => {
+      lists.classList.toggle("hidden")
+    }))
+  </script>
+  <!--section1-->
+  <div class=" relative   mt-5 mx-3 flex   justify-between md:mx-15 lg:mx-30 ">
+    <div><img class="w-[200px]" src="./src/images/logo.webp" /></div>
+    <div class=" lg:hidden"><i class=" fa-solid fa-bars text-blue-800 text-4xl mt-8   "></i></div>
+    <div class="hidden lg:block lg:flex lg:justify-between lg:gap-5">
+      <div class="flex gap-4">
+        <div> <i class="fa-solid fa-phone text-blue-800 border-gray-400 px-3 py-3  border-1 rounded-full  "></i></div>
+        <div class="flex flex-col">
+          <h1 class="text-md text-[#242e8f] font-bold">4044</h1>
+          <p class="text-gray-600">Toll free lines</p>
+        </div>
+      </div>
+      <span class="h-12 border-1  text-gray-300"></span>
+      <div class="flex gap-4">
+        <div> <i class="fa-solid fa-envelope text-blue-800 border-gray-400 px-3 py-3  border-1 rounded-full  "></i>
+        </div>
+        <div class="flex flex-col">
+          <h1 class="text-md text-[#242e8f] font-bold">info@rssb.rw</h1>
+          <p class="text-gray-600">Reach to us</p>
+        </div>
+      </div>
     </div>
-    <span class="h-12 border-1  text-gray-300"></span>
-     <div class="flex gap-4">
-      <div > <i class="fa-solid fa-envelope text-blue-800 border-gray-400 px-3 py-3  border-1 rounded-full  "></i></div>
-     <div class="flex flex-col">
-      <h1 class="text-md text-[#242e8f] font-bold">info@rssb.rw</h1>
-      <p class="text-gray-600">Reach to us</p>
-     </div>
-     </div>
+  </div>
+  <!-- section 2-->
+  <div
+    style="background-image:linear-gradient(to right, rgba(247, 244, 244, 0.95), rgba(247, 244, 244, 0.8)),url(./src/images/back-1.jpeg)"
+    class=" bg-cover bg-no-repeat   grid grid-cols-2 items-center  mt-8 pt-30 pb-10 z-0">
+    <div class=" ml-6 md:ml-20 w-100 ">
+      <h1 class="text-2xl md:text-4xl lg:text-3xl text-[#242e8f]  ">
+        We are here<span class="text-yellow-500 font-bold"> For you </span>.</h1>
+      <p class="mt-2  lg:mt-4 font-bold text-[#242e8f] md:text-[20px] lg:text-[15px]">Occupational Hazards</p>
+      <button class="mt-10 lg:mt-12 px-12 py-5 text-white font-bold bg-[#242e8f] md:text-[20px]">learn more</button>
+    </div>
+    <div class="hidden lg:block">
+      <img src="./src/images/bg-4.png">
+    </div>
+  </div>
+  <!-- section-->
+  <div class="mt-0 bg-gray-100 pb-10 lg:px-10">
+    <div class="z-0 flex mt-[-2px]   overflow-y-auto lg:overflow-y-visible ml-2 lg:grid lg:grid-cols-4  ">
+      <div
+        class="z-60 min-w-[60%] mt-2 shadow-2xl  lg:w-auto shadow-white bg-white hover:transform hover:transition-transform duration-300 hover:-translate-y-10  px-6 py-4 flex flex-col gap-4 border-1 border-gray-200    ">
+        <i class="fa-solid fa-user text-[#242e8f] text-6xl"></i>
+        <p class="text-blue-900 font-bold text-[22px]">Member First</p>
+        <p class="text-[17px] md:text-[22px] lg:text-sm"><span class="text-[#242e8f] font-bold">13 Million</span> of
+          Rwandans are covered by RSSB services</p>
+      </div>
+      <div
+        class=" min-w-[60%] lg:w-auto mt-2 shadow-2xl  shadow-white bg-white  px-6 py-4 flex flex-col gap-4 border-1 border-gray-200    ">
+        <i class="fa-solid fa-user text-[#242e8f] text-6xl"></i>
+        <p class="text-blue-900 font-bold text-[22px]">Experience </p>
+        <p class="text-[17px] md:text-[22px] lg:text-sm"><span class="text-[#242e8f] font-bold">60 years</span> of
+          service for your safety and well-being.</p>
+      </div>
+      <div
+        class=" min-w-[60%] lg:w-auto  mt-2 shadow-2xl shadow-white bg-white  px-6 py-4 flex flex-col gap-4 border-1 border-gray-200    ">
+        <i class="fa-solid fa-user text-[#242e8f] text-6xl"></i>
+        <p class="text-blue-900 font-bold text-[22px]">branches</p>
+        <p class="text-[17px] md:text-[22px] lg:text-sm"> Our services decentralized in
+          <span class="text-[#242e8f] font-bold">30 branches</span>  for your satisfaction
+        </p>
+      </div>
+      <div
+        class=" min-w-[60%] mt-2 lg:w-auto   shadow-2xl shadow-white bg-white  px-6 py-4 flex flex-col gap-4 border-1 border-gray-200    ">
+        <i class="fa-solid fa-user text-[#242e8f] text-6xl"></i>
+        <p class="text-blue-900 font-bold text-[22px]">Data driven</p>
+        <p class="text-[17px] md:text-[22px] lg:text-sm">Learning from our data to improve the services offered to our
+          members</p>
+      </div>
+
+    </div>
+    <!------->
+    <div class="mt-15 px-8 md:px-30 lg:px-68">
+      <h1 class="text-text-gray-700 text-3xl md:text-3xl lg:text-4xl font-bold tracking-wide md:tracking-normal   lg:text-center">Optimistic and forward-looking
+        agent of central government, working to achieve
+        <span class="md:text-indigo-800 lg:pl-30 ">the financial security and health of
+          all <span class="text-indigo-800">Rwandans.</span></span>
+      </h1>
+    </div>
+  </div>
+<!-- another section-->
+<div class="mt-12  px-6 ">
+  <div class="flex gap-3 md:gap-5 md:px-50 pb-12 items-center  lg:px-110">
+     <i class="fa-solid fa-minus text-yellow-500 text-6xl"></i> 
+  <h1 class="text-indigo-800 text-xl font-bold">SOCIAL PROTECTION SCHEMES</h1>
+  </div>
+ <div class="flex flex-col gap-4 md:grid md:grid-cols-2 md:gap-4 lg:grid lg:grid-cols-3 lg:gap-4">
+<div  class="px-30 py-10 flex flex-col   border-gray-200 border-1 rounded-sm">
+<img src="./src/images/finance.svg">
+<h1 class="text-gray-800 font-bold hover:text-yellow-500 ">PENSION SCHEME</h1>
+<P class="text-gray-600">Retire With Dignity</P>
 </div>
-    </div>
-<!-- section 2-->
- <div style="background-image:linear-gradient(to right, rgba(247, 244, 244, 0.95), rgba(247, 244, 244, 0.8)),url(./src/images/back-1.jpeg)" class="bg-cover bg-no-repeat   grid grid-cols-2 items-center  mt-20 pt-30 pb-10 ">
-  <div class=" ml-6 md:ml-20 w-100 " >
-    <h1 class="text-2xl md:text-4xl lg:text-3xl text-[#242e8f]  ">
-     We are here<span class="text-yellow-500 font-bold"> For you  </span>.</h1>
-  <p class="mt-2  lg:mt-4 font-bold text-[#242e8f] md:text-[20px] lg:text-[15px]">Occupational Hazards</p>
-   <button class="mt-10 lg:mt-12 px-12 py-5 text-white font-bold bg-[#242e8f] md:text-[20px]">learn more</button>
+<!----->
+<div  class="px-28 py-10 flex flex-col   border-gray-200 border-1 rounded-sm">
+<img src="./src/images/hazard.svg">
+<h1 class="text-gray-800 font-bold hover:text-yellow-500 ">OCCUPATIONAL HAZARDS</h1>
+<P class="text-gray-600">We Are Here For You</P>
 </div>
-<div  class="hidden lg:block">
-  <img src="./src/images/bg-4.png">
+<!---->
+<div  class="px-25 py-10 flex flex-col   border-gray-200 border-1 rounded-sm">
+<img src="./src/images/cross.svg">
+<h1 class="text-gray-800 font-bold hover:text-yellow-500 ">MEDICAL SCHEME</h1>
+<P class="text-gray-600">Our Health, Our Future</P>
+</div>
+<!---->
+<div  class=" py-10 flex flex-col   border-gray-200 border-1 rounded-sm">
+<img class="px-20 w-90" src="./src/images/CBHI.svg">
+<h1 class="px-30 text-gray-800 font-bold hover:text-yellow-500 ">CBHI SCHEME</h1>
+<P class="px-15 text-gray-600">Giving Your Happiness at Best Rate</P>
+</div>
+<!---->
+<div  class=" py-10 flex flex-col   border-gray-200 border-1 rounded-sm">
+<img class="px-20 w-90" src="./src/images/Ejoheza.svg">
+<h1 class="px-30 text-gray-800 font-bold hover:text-yellow-500 ">EJOHEZA</h1>
+<P class="px-15 text-gray-600">Start Early And Reap The Rewards</P>
+</div>
+<!---->
+<div  class=" py-10 flex flex-col  border-gray-200 border-1 rounded-sm">
+<img class="px-20 w-90" src="./src/images/maternity.svg">
+<h1 class="px-25 text-gray-800 font-bold hover:text-yellow-500 ">MATERNITY LEAVE</h1>
+<P class="px-10 text-gray-600">Enjoy Your Maternity Leave With Your Full <span class="pl-20 lg:pl-0">Salary</span></P>
 </div>
  </div>
-  </body>
+</div>
+</body>
+
 </html>

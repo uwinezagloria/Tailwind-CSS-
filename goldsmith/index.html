@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>goldsmith</title>
+    <link  rel="stylesheet" href="./src/style.css">
+  </head>
+  <script>
+    const loadcomponents=(id,url)=>{
+      fetch(url)
+      .then((response)=>response.text())
+      .then((html)=>{
+        document.getElementById(id).innerHTML=html
+      })
+    }
+    window.onload=()=>{
+      loadcomponents("header","/src/sections/header.html")
+    }
+  </script>
+  <body>
+    <div id="header"></div>
+    
+    
+  </body>
+</html>
